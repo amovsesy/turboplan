@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest" failures="0" tests="7" time="0.057" errors="0">
+  <properties/>
+  <testcase name="checkEnd" time="0.0070" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkStart" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkEquals5" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkEquals4" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkEquals3" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkEquals2" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+  <testcase name="checkEquals1" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.core.entity.part.TimeIntervalTest"/>
+</testsuite>

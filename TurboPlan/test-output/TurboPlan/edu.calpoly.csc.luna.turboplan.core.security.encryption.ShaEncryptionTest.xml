@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.core.security.encryption.ShaEncryptionTest" failures="0" tests="2" time="0.259" errors="0">
+  <properties/>
+  <testcase name="checkShaWrong" time="0.227" classname="edu.calpoly.csc.luna.turboplan.core.security.encryption.ShaEncryptionTest"/>
+  <testcase name="checkShaCorrect" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.core.security.encryption.ShaEncryptionTest"/>
+</testsuite>

@@ -1,0 +1,1 @@
+@java -cp "%~dp0\src;%~dp0\bin;D:/lib/gwt-windows-1.5.3/gwt-user.jar;D:/lib/gwt-windows-1.5.3/gwt-dev-windows.jar" com.google.gwt.i18n.tools.I18NSync -out "%~dp0\src" edu.calpoly.csc.luna.turboplan.web.client.TurboPlanConstants 

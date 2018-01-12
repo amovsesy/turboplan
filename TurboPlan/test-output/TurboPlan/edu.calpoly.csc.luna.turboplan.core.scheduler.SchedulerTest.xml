@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.core.scheduler.SchedulerTest" failures="0" tests="1" time="2.649" errors="0">
+  <properties/>
+  <testcase name="checkGeneration" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.core.scheduler.SchedulerTest">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest" failures="0" tests="1" time="1.529" errors="0">
+  <properties/>
+  <testcase name="@BeforeClass setup" time="0.0" classname="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest">
+    <failure type="java.lang.RuntimeException" message="Could not contact Selenium Server; have you started it on &apos;localhost:4444&apos; ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect">
+      <![CDATA[java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:86)
+	at edu.calpoly.csc.luna.turboplan.web.client.widget.AbstractTurboPlanSeleniumTest.setup(AbstractTurboPlanSeleniumTest.java:44)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="test" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,41 @@
+<serviceGroup>
+	<service name="MobileService"
+		targetNamespace="http://turboplan.luna.csc.calpoly.edu/axis2/mobileservice/">
+		<description>
+		</description>
+		<schema schemaNamespace="http://turboplan.luna.csc.calpoly.edu/axis2/user/xsd/" />
+		<parameter name="ServiceClass" locked="false">
+			edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileService
+		</parameter>
+
+		<operation name="authenticate">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+
+		<operation name="hello">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		
+		<operation name="getTasksForUserOfDate">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="getTasksForUserOfDates">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="getAllTasksForUser">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="setTaskStatus">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="setTaskNotes">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="setTaskTimespent">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+		<operation name="setTaskAttributes">
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+		</operation>
+	</service>
+</serviceGroup>

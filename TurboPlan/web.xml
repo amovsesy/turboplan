@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	
+	<servlet>
+		<servlet-name>DaoTester</servlet-name>
+		<servlet-class>
+			edu.calpoly.csc.luna.turboplan.core.DaoTestServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DaoTester</servlet-name>
+		<url-pattern>/daotest</url-pattern>
+	</servlet-mapping>
+	
+	<!-- ***************************************************************** -->
+	<!-- GWT servlets                                                      -->
+	<!-- ***************************************************************** -->
+	<servlet>
+		<servlet-name>ManageEmployeesServlet</servlet-name>
+		<servlet-class>
+			edu.calpoly.csc.luna.turboplan.web.server.servlet.ManageEmployeesServlet
+		</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ManageEmployeesServlet</servlet-name>
+		<url-pattern>/ManageEmployees</url-pattern>
+	</servlet-mapping>
+    <!-- ***************************************************************** -->
+    <servlet>
+        <servlet-name>ManageTasksServlet</servlet-name>
+        <servlet-class>
+            edu.calpoly.csc.luna.turboplan.web.server.servlet.ManageTasksServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ManageTasksServlet</servlet-name>
+        <url-pattern>/ManageTasks</url-pattern>
+    </servlet-mapping>
+    <!-- ***************************************************************** -->
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>
+            edu.calpoly.csc.luna.turboplan.web.server.servlet.UserServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/User</url-pattern>
+    </servlet-mapping>
+<!-- ***************************************************************** -->
+    <servlet>
+        <servlet-name>EmailServlet</servlet-name>
+        <servlet-class>
+            edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmailServlet</servlet-name>
+        <url-pattern>/Email</url-pattern>
+    </servlet-mapping>
+<!-- ***************************************************************** -->
+    <servlet>
+        <servlet-name>CompanyServlet</servlet-name>
+        <servlet-class>
+            edu.calpoly.csc.luna.turboplan.web.server.servlet.CompanyServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CompanyServlet</servlet-name>
+        <url-pattern>/Company</url-pattern>
+    </servlet-mapping>       
+	
+	
+	
+	
+	
+	
+	<!-- ***************************************************************** -->
+	<!-- Web service servlet                                               -->
+	<!-- ***************************************************************** -->
+	<servlet>
+		<servlet-name>AxisServlet</servlet-name>
+		<display-name>Apache-Axis Servlet</display-name>
+		<servlet-class>
+			org.apache.axis2.transport.http.AxisServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AxisServlet</servlet-name>
+		<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+       <servlet-name>SOAPMonitorService</servlet-name>
+       <display-name>SOAPMonitorService</display-name>
+       <servlet-class>
+         org.apache.axis2.soapmonitor.servlet.SOAPMonitorService
+       </servlet-class>
+       <init-param>
+          <param-name>SOAPMonitorPort</param-name>
+          <param-value>30998</param-value>
+       </init-param>
+       <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SOAPMonitorService</servlet-name>
+        <url-pattern>/SOAPMonitor</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

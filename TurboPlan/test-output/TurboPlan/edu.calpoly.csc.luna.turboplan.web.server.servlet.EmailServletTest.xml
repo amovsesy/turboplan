@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServletTest" failures="0" tests="3" time="7.342" errors="0">
+  <properties/>
+  <testcase name="newUsrCheck" time="0.026" classname="edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServletTest"/>
+  <testcase name="resetUPCheck" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServletTest"/>
+  <testcase name="resetCheck" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServletTest"/>
+</testsuite>

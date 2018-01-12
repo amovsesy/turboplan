@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<project name="TurboPlan" default="custom">
+    <property name="luna-deploy-home" value="/usr/jboss/jboss-4.2.3.GA/server/custom/deploy/"/>
+    <property name="target-war" value="TurboPlanTrunk.war"/>
+    <property name="compiled" value="false"/>
+    
+    <path id="classpath.path">
+        <fileset dir="lib" includes="*.jar"/>
+    </path>
+    
+    <target name="custom">
+        <!-- -->
+        <antcall target="compile-bin"/>
+        <antcall target="compile-js"/>
+        
+        <antcall target="launch-testng"/>
+        
+        <antcall target="pack-war"/>
+        
+    </target>
+    
+    <target name="compile-bin">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" classpathref="classpath.path" updatedProperty="compiled"/>
+    </target>
+    
+    <target name="compile-js">
+        <delete dir="www"/>
+        
+        <exec executable="TurboPlan-compile.cmd" os="Windows XP"/>
+        <exec executable="TurboPlan-compile.cmd" os="Windows Vista"/>
+        <chmod perm="777" file="/root/.hudson/jobs/TurboPlan/workspace/TurboPlan/TurboPlan-compile.sh" os="Linux"/>
+        <exec executable="/root/.hudson/jobs/TurboPlan/workspace/TurboPlan/TurboPlan-compile.sh" os="Linux"/>
+    </target>
+    
+    <target name="pack-war">
+        <delete file="${target-war}"/>
+        <mkdir dir="test-output"/>
+        
+        <war destfile="${target-war}" webxml="web.xml">
+            <!-- GWT client static contents -->
+            <fileset dir="www/edu.calpoly.csc.luna.turboplan.web.TurboPlan"/>
+            
+            <classes dir="bin">
+                <exclude name="hibernate.cfg.xml"/>
+                <exclude name="**/*Test.class"/>
+                <exclude name="**/web/public/**"/>
+                <!--<exclude name="*.jar" />-->
+                <exclude name="**/log4j.properties"/>
+            </classes>
+            
+            <zipfileset dir="src/" prefix="WEB-INF/classes" includes="hibernate.cfg.xml"/>
+            
+            <!-- TestNG test report -->
+            <zipfileset dir="test-output" prefix="test-report/" includes="**/*"/>
+            
+            <!-- Axis2 services -->
+            <zipfileset dir="services/" prefix="WEB-INF/services"/>
+            <zipfileset dir="conf/" prefix="WEB-INF/conf"/>
+            <zipfileset dir="modules/" prefix="WEB-INF/modules"/>
+            
+            <!-- Axis2 SOAPMonitorApplet -->
+            <zipfileset dir="SOAPMonitorApplet/" prefix="WEB-INF/org/apache/axis2/soapmonitor/applet/SOAPMonitorApplet"/>
+			
+        </war>
+    </target>
+    
+    <target name="pack-full-deploy-war">
+        <delete file="${target-war}"/>
+        <mkdir dir="test-output"/>
+        
+        <war destfile="${target-war}" webxml="web.xml">
+            <!-- GWT client static contents -->
+            <fileset dir="www/edu.calpoly.csc.luna.turboplan.web.TurboPlan"/>
+            
+            <classes dir="bin">
+                <exclude name="hibernate.cfg.xml"/>
+                <exclude name="**/*Test.class"/>
+                <exclude name="**/web/public/**"/>
+                <exclude name="**/log4j.properties"/>
+            </classes>
+            
+            <lib dir="lib">
+                <include name="hibernate-annotations.jar"/>
+                <include name="hibernate-commons-annotations.jar"/>
+                <include name="hibernate-validator.jar"/>
+                <include name="hibernate3.jar"/>
+                
+                <include name="slf4j-api-1.5.5.jar"/>
+                <include name="slf4j-jdk14-1.5.5.jar"/>
+                <include name="ejb3-persistence.jar"/>
+                <include name="javassist-3.4.GA.jar"/>
+                <include name="jta-1.1.jar"/>
+                
+            </lib>
+            
+            <zipfileset dir="deploy-lib/" prefix="WEB-INF/lib" includes="*"/>
+            <zipfileset dir="src/" prefix="WEB-INF/classes" includes="hibernate.cfg.xml"/>
+            
+            <!-- Axis2 services -->
+            <zipfileset dir="services/" prefix="WEB-INF/services"/>
+            <zipfileset dir="conf/" prefix="WEB-INF/conf"/>
+            <zipfileset dir="modules/" prefix="WEB-INF/modules"/>
+        </war>
+    </target>
+    
+    <target name="launch-testng">
+        <taskdef resource="testngtasks" classpath="lib/testng-jdk15.jar"/>
+        
+        <javac srcdir="test" destdir="bin" classpathref="classpath.path"/>
+        
+        <testng classpath="bin/" classpathref="classpath.path">
+            <classfileset dir="bin/" includes="**/*Test.class"/>
+        </testng>
+    </target>
+    
+    <!-- Only work on the VM -->
+    <target name="deploy-war">
+        <!-- Copy this build to deploy folder -->
+        <copy file="${target-war}" todir="${luna-deploy-home}" overwrite="true"/>
+        <chmod perm="660" file="${luna-deploy-home}/${target-war}">
+        </chmod>
+    </target>
+    
+    <target name="clean">
+        <delete dir="test-output/"/>
+        <delete dir="testng-report/"/>
+        <delete dir="TestNG.result/"/>
+        <delete dir="tomcat/"/>
+        <delete dir="www/"/>
+        
+        <delete file="test.*"/>
+    </target>
+    
+    <target name="hudson-build">
+        <antcall target="compile-bin"/>
+        <antcall target="compile-js"/>
+        
+        <antcall target="launch-testng"/>
+        <!--<antcall target="backup-old-war" />-->
+        <antcall target="pack-war"/>
+        <antcall target="deploy-war"/>
+        <chmod perm="777" file="/root/.hudson/jobs/TurboPlan/workspace/TurboPlan/Email-TestNG-Report.sh" os="Linux">
+        </chmod>
+        <exec executable="/root/.hudson/jobs/TurboPlan/workspace/TurboPlan/Email-TestNG-Report.sh" os="Linux"/>
+    </target>
+</project>

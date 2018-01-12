@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest" failures="5" tests="6" time="0.068" errors="0">
+  <properties/>
+  <testcase name="authenticate" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <skipped/>
+  </testcase>
+  <testcase name="getTasksForUserOfDates" time="0.0060" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <failure type="java.lang.AssertionError" message="Test not implemented">
+      <![CDATA[java.lang.AssertionError: Test not implemented
+	at edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest.getTasksForUserOfDates(MobileServiceTest.java:25)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="getTasksForUserOfDate" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <failure type="java.lang.AssertionError" message="Test not implemented">
+      <![CDATA[java.lang.AssertionError: Test not implemented
+	at edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest.getTasksForUserOfDate(MobileServiceTest.java:21)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="setTaskStatus" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <failure type="java.lang.AssertionError" message="Test not implemented">
+      <![CDATA[java.lang.AssertionError: Test not implemented
+	at edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest.setTaskStatus(MobileServiceTest.java:33)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="setTaskNotes" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <failure type="java.lang.AssertionError" message="Test not implemented">
+      <![CDATA[java.lang.AssertionError: Test not implemented
+	at edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest.setTaskNotes(MobileServiceTest.java:37)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="getAllTasksForUser" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest">
+    <failure type="java.lang.AssertionError" message="Test not implemented">
+      <![CDATA[java.lang.AssertionError: Test not implemented
+	at edu.calpoly.csc.luna.turboplan.axis2ws.mobile.MobileServiceTest.getAllTasksForUser(MobileServiceTest.java:29)
+... Removed 23 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

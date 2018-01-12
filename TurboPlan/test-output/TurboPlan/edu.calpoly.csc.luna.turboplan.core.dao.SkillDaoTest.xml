@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.core.dao.SkillDaoTest" failures="0" tests="4" time="0.032" errors="0">
+  <properties/>
+  <testcase name="addSkill" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.core.dao.SkillDaoTest">
+    <skipped/>
+  </testcase>
+  <testcase name="getSkillTableRowCount" time="0.0" classname="edu.calpoly.csc.luna.turboplan.core.dao.SkillDaoTest">
+    <skipped/>
+  </testcase>
+  <testcase name="getAllSkill" time="0.0" classname="edu.calpoly.csc.luna.turboplan.core.dao.SkillDaoTest">
+    <skipped/>
+  </testcase>
+  <testcase name="getSkillByCompanyId" time="0.0" classname="edu.calpoly.csc.luna.turboplan.core.dao.SkillDaoTest">
+    <skipped/>
+  </testcase>
+</testsuite>

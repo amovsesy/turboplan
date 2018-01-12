@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest" failures="0" tests="6" time="0.06" errors="0">
+  <properties/>
+  <testcase name="testConstructor" time="0.0070" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+  <testcase name="testGetName" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+  <testcase name="testSetName" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+  <testcase name="testID" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+  <testcase name="testGetAddress" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+  <testcase name="testSetAddress" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileCompanyTest"/>
+</testsuite>

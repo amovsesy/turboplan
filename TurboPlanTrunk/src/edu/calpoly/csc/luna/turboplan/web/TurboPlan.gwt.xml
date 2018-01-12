@@ -1,0 +1,40 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                        -->
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.i18n.I18N" />
+	<inherits name="com.google.gwt.http.HTTP"/>
+	
+	<!-- Inherit the default GWT style sheet.  You can change       -->
+	<!-- the theme of your GWT application by uncommenting          -->
+	<!-- any one of the following lines.                            -->
+	<inherits name='com.google.gwt.user.theme.standard.Standard' />
+	<!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+	<!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+	<!-- Other module inherits                                      -->
+	<inherits name='com.gwtext.GwtExt' />
+	<inherits name="com.allen_sauer.gwt.log.gwt-log-TRACE" />
+	<!-- <inherits name="com.allen_sauer.gwt.log.gwt-log-OFF" /> -->
+
+	<!-- Specify the app entry point class.                         -->
+	<entry-point class='edu.calpoly.csc.luna.turboplan.web.client.TurboPlan' />
+
+	<servlet path="/ManageEmployees"
+		class="edu.calpoly.csc.luna.turboplan.web.server.servlet.ManageEmployeesServlet" />
+    <servlet path="/ManageTasks"
+        class="edu.calpoly.csc.luna.turboplan.web.server.servlet.ManageTasksServlet" />
+    <servlet path="/User"
+        class="edu.calpoly.csc.luna.turboplan.web.server.servlet.UserServlet" />
+    <servlet path="/Email"
+        class="edu.calpoly.csc.luna.turboplan.web.server.servlet.EmailServlet" />
+    <servlet path="/Company"
+        class="edu.calpoly.csc.luna.turboplan.web.server.servlet.CompanyServlet" />
+
+	<!-- Specify the application specific style sheet.              -->
+	<stylesheet src='TurboPlan.css' />
+
+	<stylesheet src="js/ext/resources/css/ext-all.css" />
+	<script src="js/ext/adapter/ext/ext-base.js" />
+	<script src="js/ext/ext-all.js" />
+</module>

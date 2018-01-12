@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest" failures="0" tests="29" time="0.499" errors="0">
+  <properties/>
+  <testcase name="testContactMobilePhoneNull" time="0.0070" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testDescription" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testStatusNull" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testUsers" time="0.0060" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testNotes" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testPriority" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testLocation" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactHomePhoneNull" time="0.0040" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactFirstNameNull" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testScheduledStartTime" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testDueDate" time="0.0050" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactHomePhone" time="0.0060" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testUsersNull" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactMobilePhone" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactLastNameNull" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testDescriptionNull" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testLocationLess" time="0.0060" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactTitle" time="0.0030" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testScheduledEndTime" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testCreatedDate" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactLastName" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testNotesNull" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testTitle" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testID" time="0.0020" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testEnum" time="0.037" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testPriorityNull" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testContactFirstName" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testStatus" time="0.0010" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+  <testcase name="testtoEntityModel" time="0.115" classname="edu.calpoly.csc.luna.turboplan.axis2ws.mobile.model.MobileTaskTest"/>
+</testsuite>

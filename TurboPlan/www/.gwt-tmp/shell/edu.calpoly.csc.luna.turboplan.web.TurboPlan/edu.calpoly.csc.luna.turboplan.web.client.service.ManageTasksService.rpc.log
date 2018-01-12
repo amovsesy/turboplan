@@ -1,0 +1,725 @@
+Reachable types computed on: Sun May 31 19:23:36 PDT 2009
+boolean[]
+   Serialization status
+      Instantiable
+   Path
+      'boolean[][]' is reachable from field 'availability' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+boolean[][]
+   Serialization status
+      Instantiable
+   Path
+      'boolean[][]' is reachable from field 'availability' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+com.google.gwt.i18n.client.impl.DateRecord
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.i18n.client.impl.DateRecord' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'dateOfBirth' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+com.google.gwt.user.client.ui.ChangeListenerCollection
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.ChangeListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+com.google.gwt.user.client.ui.ClickListenerCollection
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.ClickListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+com.google.gwt.user.client.ui.FocusListenerCollection
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.FocusListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+com.google.gwt.user.client.ui.KeyboardListenerCollection
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.ui.KeyboardListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtAddress
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtAddress' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtAddress'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtAddress' is reachable from field 'address' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskPriority
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskPriority' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskPriority'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskPriority' is reachable from field 'priority' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskStatus
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskStatus' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskStatus'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask.TaskStatus' is reachable from field 'status' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile.EmployeeGender
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile.EmployeeGender' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile.EmployeeGender'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile.EmployeeGender' is reachable from field 'gender' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser[]
+   Serialization status
+      Instantiable
+   Path
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.lang.Boolean
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Boolean' is reachable as a subtype of type 'class java.lang.Boolean'
+      Started from 'java.lang.Boolean'
+
+java.lang.Character
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Character' is reachable as a subtype of type 'class java.lang.Character'
+      'java.lang.Character' is reachable from field 'middleInitial' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.lang.Double
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Double' is reachable as a subtype of type 'class java.lang.Double'
+      'java.lang.Double' is reachable from field 'estimatedTime' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.Long
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.Long' is reachable as a subtype of type 'class java.lang.Long'
+      'java.lang.Long' is reachable from field 'taskID' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.lang.Number
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Number' is reachable as a supertype of type 'class java.lang.Long'
+      'java.lang.Long' is reachable as a subtype of type 'class java.lang.Long'
+      'java.lang.Long' is reachable from field 'taskID' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.sql.Date
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Date' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'dateOfBirth' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.sql.Time
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Time' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'dateOfBirth' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.sql.Timestamp
+   Serialization status
+      Instantiable
+   Path
+      'java.sql.Timestamp' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'dateOfBirth' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.AbstractList[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.AbstractSequentialList[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<com.google.gwt.user.client.ui.KeyboardListener>
+   Serialization status
+      Field serializable
+   Path
+      'java.util.ArrayList<com.google.gwt.user.client.ui.KeyboardListener>' is reachable as a supertype of type 'class com.google.gwt.user.client.ui.KeyboardListenerCollection'
+      'com.google.gwt.user.client.ui.KeyboardListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<com.google.gwt.user.client.ui.FocusListener>
+   Serialization status
+      Field serializable
+   Path
+      'java.util.ArrayList<com.google.gwt.user.client.ui.FocusListener>' is reachable as a supertype of type 'class com.google.gwt.user.client.ui.FocusListenerCollection'
+      'com.google.gwt.user.client.ui.FocusListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<com.google.gwt.user.client.ui.ClickListener>
+   Serialization status
+      Field serializable
+   Path
+      'java.util.ArrayList<com.google.gwt.user.client.ui.ClickListener>' is reachable as a supertype of type 'class com.google.gwt.user.client.ui.ClickListenerCollection'
+      'com.google.gwt.user.client.ui.ClickListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.ArrayList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList<com.google.gwt.user.client.ui.ChangeListener>
+   Serialization status
+      Field serializable
+   Path
+      'java.util.ArrayList<com.google.gwt.user.client.ui.ChangeListener>' is reachable as a supertype of type 'class com.google.gwt.user.client.ui.ChangeListenerCollection'
+      'com.google.gwt.user.client.ui.ChangeListenerCollection' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.ArrayList[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Arrays.ArrayList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Date
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Date' is reachable as a subtype of type 'class java.util.Date'
+      'java.util.Date' is reachable from field 'dateOfBirth' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'skills' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUserProfile' is reachable from field 'profile' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>' is reachable as a supertype of type 'class java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>' is reachable from field 'tasks' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.HashSet<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<java.lang.String>' is reachable as a supertype of type 'class java.util.LinkedHashSet<java.lang.String>'
+      'java.util.LinkedHashSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Set<java.lang.String>'
+      'java.util.Set<java.lang.String>' is reachable from field 'permission' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.HashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a supertype of type 'class java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask>' is reachable from field 'tasks' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.LinkedHashSet<java.lang.String>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedHashSet<java.lang.String>' is reachable as a subtype of type 'interface java.util.Set<java.lang.String>'
+      'java.util.Set<java.lang.String>' is reachable from field 'permission' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from field 'users' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtCompany' is reachable from field 'company' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill' is reachable from type argument 0 of type 'java.util.LinkedHashSet<E>'
+      'java.util.LinkedHashSet<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable as a subtype of type 'interface java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>'
+      'java.util.Set<edu.calpoly.csc.luna.turboplan.web.client.model.GwtSkill>' is reachable from field 'requiredSkill' of type 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask' is reachable as a subtype of type 'class edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+      Started from 'edu.calpoly.csc.luna.turboplan.web.client.model.GwtTask'
+
+java.util.LinkedList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.LinkedList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.LinkedList<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.LinkedList[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.List[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Stack<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Stack<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Stack[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Vector<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a supertype of type 'class java.util.Stack<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.Stack<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable as a subtype of type 'interface java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>'
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Stack<E>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Vector<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>
+   Serialization status
+      Instantiable
+   Path
+      'java.util.Vector<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a supertype of type 'class java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      'java.util.Stack<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+
+java.util.Vector[]
+   Serialization status
+      Instantiable
+   Path
+      'java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>' is reachable from type argument 0 of type 'java.util.Arrays.ArrayList<E>'
+      'java.util.Arrays.ArrayList<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>' is reachable as a subtype of type 'interface java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+      Started from 'java.util.List<java.util.List<edu.calpoly.csc.luna.turboplan.web.client.model.GwtUser>>'
+

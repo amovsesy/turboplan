@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [TurboPlan]" junit="false" annotations="JDK">
+  <test name="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest">
+        <methods>
+          <include name="test"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

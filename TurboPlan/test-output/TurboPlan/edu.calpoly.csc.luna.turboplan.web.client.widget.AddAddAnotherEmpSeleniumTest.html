@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>TestNG:  edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 05 02:19:25 PDT 2009</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1529 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='3' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest.setup()'>@BeforeClass setup</td>
+<td>0</td>
+<td><div><pre>java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:86)
+	at edu.calpoly.csc.luna.turboplan.web.client.widget.AbstractTurboPlanSeleniumTest.setup(AbstractTurboPlanSeleniumTest.java:44)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18647665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace18647665'><pre>java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:86)
+	at edu.calpoly.csc.luna.turboplan.web.client.widget.AbstractTurboPlanSeleniumTest.setup(AbstractTurboPlanSeleniumTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:398)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:145)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:82)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:167)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:73)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:124)
+</pre></div></td>
+</tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='3' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest.test()'>test</td>
+<td>0</td>
+<td></td>
+</tr>
+</table><p>
+</body>
+</html>

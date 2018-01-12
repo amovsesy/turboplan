@@ -1,0 +1,53 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="TurboPlan">
+    <groups>
+    </groups>
+    <test name="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest">
+      <class name="edu.calpoly.csc.luna.turboplan.web.client.widget.AddAddAnotherEmpSeleniumTest">
+        <test-method status="SKIP" signature="test()" name="test" duration-ms="3" started-at="2009-06-05T02:19:27Z" finished-at="2009-06-05T02:19:27Z">
+        </test-method>
+        <test-method status="FAIL" signature="setup()" name="setup" is-config="true" duration-ms="0" started-at="2009-06-05T02:19:25Z" finished-at="2009-06-05T02:19:25Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:86)
+	at edu.calpoly.csc.luna.turboplan.web.client.widget.AbstractTurboPlanSeleniumTest.setup(AbstractTurboPlanSeleniumTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:398)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:145)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:82)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:167)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:73)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:124)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
